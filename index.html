@@ -4,31 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>project</title>
+    <link rel="stylesheet" href="public/style.css">
+    <title>Leo - main page</title>    
 </head>
 <body>
-<style>
-    p{
-        color: red;
-    }
-</style>
-    <header>
-        <h1 style="font-size:30px;">Заголовок главный</h1>  
-        <p>Это описание к заголовку нашей <a href="http://ya.ru">компании</a></p>
-    </header>
-    <section>
-        <h2 >Наши услуги</h2>
-        <ol>
-            <li><a href="#">detailing</a></li>
-            <li><a href="#">cleaning</a></li>
-            <li><a href="#">пылесосинг</a></li>
-            <li><a href="#">уберайтунг</a></li>       
-        </ol>
-    </section>
-    <footer>
-        <div class="footer-container">
-            <p>Здесь будет подвал</p>
-        </div>
-    </footer>
+ <header class="header-section">
+    <img src="public/img/bg.jpg" class="bg" alt="">
+    <nav class="header-navigation d-flex">
+        <a href="#" class="header-logo-link">
+            <img src="public/img/logo.png" class="header-logo-img" alt="logo">
+        </a>
+        <ul class="header-buttons-list d-flex">
+            <li class="nav-item"><a href="#" class="nav-link"> Solution</a> </li>
+            <li class="nav-item"><a href="#" class="nav-link"> Products</a> </li> 
+            <li class="nav-item"><a href="#" class="nav-link"> Portfolio</a> </li> 
+            <li class="nav-item"><a href="#" class="nav-link"> Contact</a> </li>  
+        </ul>
+    </nav>
+    <div class="main-offer d-flex">
+     <div class="offer-image">
+        <img class="offer-img" src="public/img/calc.png" alt="offer-image">
+     </div>
+     <div class="offer-details"> 
+        <h1 class="offer-title">
+            Introducing <br>
+            <span class="offer-title-span">
+                Something hot...
+            </span>
+        </h1>
+        <button class="offer-try">
+            Try demo
+        </button>
+     </div>
+    </div>
+ </header>
 </body>
 </html>
